@@ -8,4 +8,10 @@ document.addEventListener("DOMContentLoaded", e => {
         })
     }
 
+    const fileReader = new FileReader()
+
+    fileReader.onload = () => {
+        console.log(fileReader.data);
+    }
+
 })
